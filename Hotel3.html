@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Info</title>
+    <link rel="stylesheet" href="./hotel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar section  -->
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="Hotel2.html"></a>LN</h1>
+          <ul>
+            <li><a href="Hotel.html">Home</a></li>
+            <li><a href="Hotel2.html">About</a></li>
+            <li><a href="Hotel3.html">Content</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- form  -->
+    <div class="container-form">
+      <div class="form">
+        <div class="contact-info">
+          <section id="contact-infox">
+            <div class="container">
+              <div class="box1">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>50 Main st, Boston MA</p>
+              </div>
+              <div class="box2">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone Number</h3>
+                <p>(617) 555-5555</p>
+              </div>
+              <div class="box3">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email Address</h3>
+                <p>frontdesk@hotelbt.co</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="contact-form">
+          <form action="process.php">
+            <h1 class="title"><span class="last">Contact</span> Us</h1>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+            </div>
+
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+            </div>
+
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+            </div>
+
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+            </div>
+            <input type="submit" value="send" class="btn-form" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer>
+      <div id="footer">
+        <div class="copy-right">
+          <p>
+            Copyright @ Laxminarayan. Made with<i class="fa-solid fa-heart"></i
+            >by Pratp Sir
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
